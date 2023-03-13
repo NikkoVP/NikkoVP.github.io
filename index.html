@@ -1,38 +1,297 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAU2SURBVFhHpVdNbBVVGP3unXn6WqWtpWIJJUFpjUqJmJho2IgmxgQxkkaiEaFp6oKNhQpGZSHRhUhjxEoksQuNKNZgrAksIFijC2NoikUUqVEriS6sJhgMaeG9eTPX892f+WmftLx3Xqd3fu7Md+45Z+7MCKUUzYR47yMlvRzW+JjQ+yIhSG16zGzMgb0dHythLyv0T+nztw09Put8adsY3oFDSvoozl1xkmnxV4bo/0Giq8C5vPC5itdBoh/EbJcYGQLegU+ULlolIttmYUbS33EoQyK2QAx8GOX8nIg8cJWGxD1NjbR5+TIqRYoCFVHv7bfOi93rjx5UnpS0uK2JVj3cRsVLJfpy4Ft7VOGX2BErcG0khQwjkiEOo2B36830QPNNtG30O9o6eoq2j562PecGDyoE4UWtN9CPX5yjXN4jgYEZoE3ZGRPwsZOLM4m7GuppSU0N7T4zTkFUXtArIYQJEc77/vNfqWlZPRWmAmpZscgezSImIEs8eqNAF2R/4/S4VoKhmHQY6PX5ICpKFUGBYiGg0cPj9NW7Y9S2eqk9yhokTmYJWBJ8CxWKgSZD2Fai+K/qejI5aw7sPPaUfOFIp2AbWIlSGFIpCO3RLGICQheHBWhDnOTskCFCuXFjg+12VYAMOgtMQqHl+M1EooDOgCnM0rt1z9pQCQKMnAnwwlcJFdKB9TRSFmCxo+aUOjuoWF66+SDE1aPIkOA7g4trRUDEIZuBWAFLBvs8ZLpiBIEpCBIsP1vLdvCWQ5IByOUU4GnXkfGxv1LwfcNFzahNHvSCfQ6awNLn9yu/lBQ1BMw2wZrKERjZOYT46dFrMhHteeR99fL9+/+Ut/S+pTwc0MWtDcYCQ8arwoEiFhc8Nzu6TLAGNQvqmqXUxZPRM4msAlVIAAbGAriuCdjilkSJa5v0Z0mkFfCryWA5CzQhSwL+StBAAFMKoNUKWDu8KkLI4IIZCywhvc65+/mdZ0WEuVdoAoYEehkyIFFNCAN4wIW0ApaAsyFArV3HuoW+Cyb29Yr0RMRvNI6MH1bFAGMxBdMWsPyvHt+iny3JRMQFteyongmh7VABOAPGgiSEbAGHzyEhgJ1O9syzoIoMsIPOc9ZAT0ZYx5rtkVEgKZq+Db0qFCBV0vKbEHIgjR3cOsQEGG7k/D7g7GAylcIU4+AlITSZSK6ZIcBgEjm8GWsFmAS2l/f0XzWLJ+5+UZV0QUOCPxRCfjwzoSiR1bdtBpfxKrWwNk/npy9jC375klpBQqF3SeIfaIceppCcoMlXtoiH7nzuD6mKLR56S+Gju8QMJ/EkZRWIrsnzR45RxCAZd7yWVnpweIyeWb9av4yklRCwjp8bOiNYPL464KtCC1+ItzBOK3Uy+vVPr6HhT0diO1gZh5iA+5RiTP5zkY6e+Il2bX6QljRcr0l0rVlFL3XcRzfW5A0pZMXnmAOgplsGJ137jGILGq+jzh3raPzUOfp9YjImxPOAAwZjKt/W3Xc+F6pG7NLbjMa6WtqAwgvra/V08NmJs7SydTEd/OYM4TOCftvbI44Mfq1KePGYCd/3aHqqQMNDI3Th74uwBpawLQLGhHn1wcmdevAxAUZ7Z58eTLnX3+5191JzUx29fXSE/pq6RCEuOLGvR6xduZU//cpCcphR0BRGLnjB/sGTu+MzMgQYKzr32C+z2VflAxHCx59vhRo5fcfxX/LkIaFXgCPBoeTvgaGxvsyFZxFwaN/0GlKPTyodrRRwoQgqnh3YIda295Q/OQXB0qM9/MObZXQi+g/XUrj8rGFHxQAAAABJRU5ErkJggg==" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App</title>
-    
-    <script type="module" crossorigin src="/assets/index-9f9d94af.js"></script>
-    <link rel="stylesheet" href="/assets/index-35c14cee.css">
-  </head>
-  <body>
-    <div id="root">
-      <div class="uplift">
-        <a
-          href="https://www.upliftcodecamp.com/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src="/assets/uplift-logo-d19cc01e.png" alt="Uplift Logo" />
-        </a>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Nikko Pagdanganan</title>
+  
+  <link rel="stylesheet" href="/assets/index-916fcdab.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="navbar">
+        <div class="logo">NP</div>
+        <ul class="navlinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#aboutme">About</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="toggle_btn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
       </div>
-      <div>
-        <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-          <img src="/assets/vite-4a748afd.svg" class="logo" alt="Vite logo" />
-        </a>
+
+      <div class="dropdown_menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#aboutme">About</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#portfolio">Portfolio/</a></li>
+        <li><a href="#contact">Contact</a></li>
       </div>
-      <div class="card">
-        <p>Edit <code>src/main.js</code> and save to test HMR</p>
+  </div>
+  </header>
+  <script>
+    const toggleBtn = document.querySelector('.toggle_btn')
+    const toggleBtnIcon = document.querySelector('.toggle_btn i')
+    const dropDownMenu = document.querySelector('.dropdown_menu')
+
+    toggleBtn.onclick = function () {
+      dropDownMenu.classList.toggle('open')
+
+      const isOpen = dropDownMenu.classList.contains('open')
+      //  toggleBtn.classList = isOpen
+      //  ? 'fa-solid fa-xmark'
+      //  :'fa-solid fa-bars'
+    }
+  </script>
+  <!-- SECTION 1 HOME -->
+  <section class="home" id="home">
+    <div class="hometext">
+      <div class="hello">Hello, I am</div>
+      <h1>NIKKO PAGDANGANAN</h1>
+      <h3>Full Stack Developer <span> / Designer</span></h3>
+      <br>
+      <p>Creating and designing</p>
+      <div class="downloadcv">
+        <a href="#" class="btncv"> Download my CV</a>
       </div>
-      <p class="read-the-docs">
-        Click on the Vite to learn more
-      </p>
     </div>
-    <!--    👇 Adding type="module" will make javascript as module syntax -->
-    
-  </body>
+
+    <div class="photo">
+      <img src="/assets/12322619_10204431451940984_3907918075715416552_o-1901af6d.jpg" alt="photo of me">
+    </div>
+  </section>
+
+  <!-- SECTION 2 ABOUT ME -->
+  <section class="aboutme" id="aboutme">
+    <h1 class="aboutme_h1">About me</h1>
+    <div class="container_aboutme">
+      <div class="pics_aboutme">
+        <img class="img_aboutme" src="/assets/278455360_10218280612401340_4394341255553459540_n-03ba12e2.jpg" alt="Drummer">
+        <img class="img_aboutme" src="/assets/300579946_10218809996515612_3599850575905809521_n-7be26766.jpg"
+          alt="Free and Accepted Mason">
+        <img class="img_aboutme" src="/assets/76001_1393276766576_20708_n-56964b32.jpg" alt="Mountaineer">
+        <img class="img_aboutme" src="/assets/politics-4dbdc5f0.jpg" alt="Politician">
+      </div>
+
+      <div class="aboutmetext">
+        <div class="aboutme_text1">
+          <h1 class="aboutme_h1_insidetext">About me</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque sit sed nam quas deserunt maiores
+            reprehenderit soluta numquam quasi, ipsa blanditiis nulla illum, quae sapiente aut, sint asperiores
+            distinctio pariatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse minus natus accusamus
+            maxime cumque quasi voluptatum. Voluptatum harum totam nam, doloribus magnam, est explicabo ex, quaerat
+            repellat odit adipisci animi!</p>
+        </div>
+        <div class="skills">
+          <div class="skillsh1">
+            <h1>Skills</h1>
+          </div>
+          <div class="skillssection">
+            <h4>Front-end:</h3> <span>HTML</span> <span>CSS</span> <span>Javascript</span>
+              <h4>Back-end: </h3><span>NodeJS</span> <span>ExpressJS</span> <span>Java</span>
+                <h4>Database:</h3> <span>MongoDB</span> <span>MySQL</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 3 BLOG -->
+  <!-- <section class="blog" id="blog">
+    <div class="blogheader">
+      <h1>BLOG TITLE</h1>
+    </div>
+
+    <div class="blogbody">
+      <p class="p1">Laoreet turpis mauris purus adipiscing litora habitasse praesent a lorem dolor porttitor eget
+        sagittis senectus imperdiet parturient tortor phasellus habitant tortor egestas posuere mauris. Elit Curae;
+        tortor ullamcorper semper. Feugiat per lobortis primis penatibus. Auctor non eu eros lorem. Sit morbi nibh. Non.
+        Massa litora cras fusce mus tortor pede aenean interdum. Ridiculus fusce. Tincidunt hymenaeos diam magna. Ac
+        vestibulum purus, cubilia. Molestie interdum condimentum nisi quam. Ullamcorper felis bibendum vulputate sociis
+        tempus, rhoncus purus hymenaeos viverra. Enim est. Duis placerat ac venenatis. Vestibulum. Quis elementum sed
+        sociosqu. Eros. Blandit ullamcorper nascetur pellentesque enim class fringilla. Nullam quis id cum accumsan
+        aptent, enim nisl ligula ac. Pulvinar aenean egestas vehicula. Eros integer, dolor nulla quisque in conubia
+        suspendisse nostra nec placerat lobortis integer. Purus blandit dictum sollicitudin libero viverra sit,
+        ultricies luctus Proin sem ipsum. Dolor fermentum. Dui cum accumsan auctor ornare vel facilisi at tortor
+        bibendum, a. Luctus pretium netus ad. In libero habitasse tellus fames accumsan purus. Erat Penatibus hymenaeos.
+        Volutpat.<img src="/images/12322619_10204431451940984_3907918075715416552_o.jpg" alt="" class="imgright">
+        Faucibus nisi tempor. Egestas vulputate orci ridiculus eu sem natoque dis hymenaeos. Mauris est ultricies. Orci
+        cras a euismod aenean tortor. Libero leo vel posuere semper Ullamcorper eleifend nisi facilisis et, ipsum
+        torquent lectus vulputate hymenaeos cubilia per vehicula iaculis risus mollis suscipit gravida fringilla aenean
+        ligula rhoncus conubia, volutpat arcu tempus nunc egestas curabitur diam ante. Purus. Tristique phasellus congue
+        fames pharetra sit magnis, montes felis parturient bibendum pede tempor mus sodales orci duis porttitor proin.
+        Euismod. Cursus pellentesque pede at nulla tristique potenti at tortor pretium bibendum ante pharetra mollis leo
+        dapibus. Hymenaeos netus rutrum dis posuere pellentesque eget sem, tristique netus condimentum congue. Ultrices
+        Cum eros. Sem sociosqu facilisi fermentum tempor nisl lobortis bibendum pellentesque scelerisque lacus elementum
+        risus. Pulvinar at litora integer mattis tortor porttitor in cum accumsan ultrices eu pretium iaculis vel nulla
+        lobortis porta litora imperdiet fermentum faucibus primis cubilia quam. Dapibus tempus cras, ultrices penatibus
+        curae; egestas per, rutrum egestas, magnis dapibus nullam elementum. Ridiculus magna, varius auctor congue
+        justo, ad mi. Elementum iaculis convallis leo tellus semper convallis, nam. Lacinia ante Auctor. Fermentum
+        commodo leo. Curabitur et magna sociis eleifend netus ac. Nonummy pellentesque rhoncus metus Justo. At
+        pellentesque sodales euismod non sociis porttitor at conubia pretium molestie praesent ac primis nec mollis
+        potenti Tincidunt per maecenas varius est arcu facilisi dignissim libero lacus congue mus pede semper sagittis
+        rhoncus commodo iaculis diam. Maecenas sagittis suspendisse erat cubilia suspendisse fermentum dictum convallis
+        mi malesuada. Orci proin taciti urna sed, sit ad eget lacinia eleifend cras eget. <img
+          src="/images/300579946_10218809996515612_3599850575905809521_n.jpg" alt="" class="imgleftleft">Hymenaeos ac
+        hymenaeos mi aptent sem sociis imperdiet cum est, velit libero fringilla condimentum consequat volutpat gravida
+        feugiat urna sem facilisis ad vulputate malesuada elit hendrerit lorem mollis arcu. Rutrum quis molestie tellus.
+        Porttitor class lacinia pulvinar platea accumsan enim conubia arcu bibendum, diam nunc purus a vel libero.
+        Consequat. Urna faucibus sem volutpat scelerisque suspendisse taciti vestibulum sed sagittis. Etiam vestibulum
+        metus habitant ut elementum pulvinar vitae lectus etiam maecenas diam etiam rhoncus auctor est, litora quam et
+        suscipit posuere libero varius dapibus est. Faucibus ligula lobortis ad velit eleifend fusce eget ligula
+        commodo, duis nullam potenti placerat penatibus per mauris litora, feugiat primis amet amet cursus tortor
+        bibendum tincidunt blandit vivamus phasellus. Lorem tincidunt ultrices auctor mus massa fusce mus libero, eget
+        cubilia dapibus et suspendisse ornare. Nam imperdiet condimentum molestie. Montes sit scelerisque metus sed
+        pellentesque senectus ultrices hymenaeos commodo placerat sociis felis sit lobortis habitant vitae volutpat
+        praesent montes dolor sodales viverra eleifend egestas nisl dui justo auctor laoreet cubilia purus mollis sem ad
+        Viverra iaculis sollicitudin. Fusce, mollis. Dis molestie. Malesuada duis nonummy maecenas platea venenatis
+        posuere egestas, nibh torquent eu vitae. Dis porttitor consectetuer sagittis nonummy. Natoque. Tortor justo
+        dapibus nonummy magnis faucibus neque taciti leo fermentum ultricies mi hendrerit per dignissim eros fermentum
+        blandit amet pharetra lacus Euismod, luctus placerat sapien quisque aliquam fusce penatibus, mauris tempor
+        adipiscing vitae ac neque molestie neque class elit eu. Egestas sem feugiat. Quisque porta euismod semper hac
+        mattis platea nisi. Mattis duis cursus. Viverra pellentesque fusce Condimentum pellentesque sociosqu quisque
+        pharetra hac lobortis nec. Malesuada aliquet euismod arcu platea parturient sollicitudin sagittis arcu Interdum.
+        Nam Non commodo elit hendrerit facilisis venenatis sociosqu bibendum nisi blandit potenti eros ac nibh placerat
+        torquent nec commodo porta pretium mi porttitor nibh malesuada litora aptent non aliquet Blandit, facilisi velit
+        mauris adipiscing quam leo consequat Auctor vehicula consequat sociis bibendum inceptos sed. Sit nonummy Magnis
+        ultricies fermentum elementum aptent nascetur sem scelerisque lorem tempus. Integer. Congue. Torquent euismod.
+        Pellentesque sagittis consequat est malesuada Tortor ut tristique elit dictumst maecenas Enim curabitur. Elit
+        laoreet. A ut sem Orci, pulvinar fermentum dis class lacinia fermentum dis malesuada integer id ante turpis vel.
+        Augue pharetra mattis cubilia phasellus, ut mauris primis duis pellentesque eleifend metus aliquam facilisis. At
+        duis vel vel nisi. Senectus egestas Penatibus risus.</p>
+      <p class="p2">Laoreet turpis mauris purus adipiscing litora habitasse praesent a lorem dolor porttitor eget
+        sagittis senectus imperdiet parturient tortor phasellus habitant tortor egestas posuere mauris. Elit Curae;
+        tortor ullamcorper semper. Feugiat per lobortis primis penatibus. Auctor non eu eros lorem. Sit morbi nibh. Non.
+        Massa litora cras fusce mus tortor pede aenean interdum. Ridiculus fusce. Tincidunt hymenaeos diam magna. Ac
+        vestibulum purus, cubilia. Molestie interdum condimentum nisi quam. Ullamcorper felis bibendum vulputate sociis
+        tempus, rhoncus purus hymenaeos viverra. Enim est. Duis placerat ac venenatis. Vestibulum. Quis elementum sed
+        sociosqu. Eros. Blandit ullamcorper nascetur pellentesque enim class fringilla. Nullam quis id cum accumsan
+        aptent, enim nisl ligula ac. Pulvinar aenean egestas vehicula. Eros integer, dolor nulla quisque in conubia
+        suspendisse nostra nec placerat lobortis integer. Purus blandit dictum sollicitudin libero viverra sit,
+        ultricies luctus Proin sem ipsum. Dolor fermentum. Dui cum accumsan auctor ornare vel facilisi at tortor
+        bibendum, a. Luctus pretium netus ad. In libero habitasse tellus fames accumsan purus. Erat Penatibus hymenaeos.
+        Volutpat.<img src="/images/12322619_10204431451940984_3907918075715416552_o.jpg" alt="" class="imgright">
+        Faucibus nisi tempor. Egestas vulputate orci ridiculus eu sem natoque dis hymenaeos. Mauris est ultricies. Orci
+        cras a euismod aenean tortor. Libero leo vel posuere semper Ullamcorper eleifend nisi facilisis et, ipsum
+        torquent lectus vulputate hymenaeos cubilia per vehicula iaculis risus mollis suscipit gravida fringilla aenean
+        ligula rhoncus conubia, volutpat arcu tempus nunc egestas curabitur diam ante. Purus. Tristique phasellus congue
+        fames pharetra sit magnis, montes felis parturient bibendum pede tempor mus sodales orci duis porttitor proin.
+        Euismod. Cursus pellentesque pede at nulla tristique potenti at tortor pretium bibendum ante pharetra mollis leo
+        dapibus. Hymenaeos netus rutrum dis posuere pellentesque eget sem, tristique netus condimentum congue. Ultrices
+        Cum eros. Sem sociosqu facilisi fermentum tempor nisl lobortis bibendum pellentesque scelerisque lacus elementum
+        risus. Pulvinar at litora integer mattis tortor porttitor in cum accumsan ultrices eu pretium iaculis vel nulla
+        lobortis porta litora imperdiet fermentum faucibus primis cubilia quam. Dapibus tempus cras, ultrices penatibus
+        curae; egestas per, rutrum egestas, magnis dapibus nullam elementum. Ridiculus magna, varius auctor congue
+        justo, ad mi. Elementum iaculis convallis leo tellus semper convallis, nam. Lacinia ante Auctor. Fermentum
+        commodo leo. Curabitur et magna sociis eleifend netus ac. Nonummy pellentesque rhoncus metus Justo. At
+        pellentesque sodales euismod non sociis porttitor at conubia pretium molestie praesent ac primis nec mollis
+        potenti Tincidunt per maecenas varius est arcu facilisi dignissim libero lacus congue mus pede semper sagittis
+        rhoncus commodo iaculis diam. Maecenas sagittis suspendisse erat cubilia suspendisse fermentum dictum convallis
+        mi malesuada. Orci proin taciti urna sed, sit ad eget lacinia eleifend cras eget. <img
+          src="/images/300579946_10218809996515612_3599850575905809521_n.jpg" alt="" class="imgleft">Hymenaeos ac
+        hymenaeos mi aptent sem sociis imperdiet cum est, velit libero fringilla condimentum consequat volutpat gravida
+        feugiat urna sem facilisis ad vulputate malesuada elit hendrerit lorem mollis arcu. Rutrum quis molestie tellus.
+        Porttitor class lacinia pulvinar platea accumsan enim conubia arcu bibendum, diam nunc purus a vel libero.
+        Consequat. Urna faucibus sem volutpat scelerisque suspendisse taciti vestibulum sed sagittis. Etiam vestibulum
+        metus habitant ut elementum pulvinar vitae lectus etiam maecenas diam etiam rhoncus auctor est, litora quam et
+        suscipit posuere libero varius dapibus est. Faucibus ligula lobortis ad velit eleifend fusce eget ligula
+        commodo, duis nullam potenti placerat penatibus per mauris litora, feugiat primis amet amet cursus tortor
+        bibendum tincidunt blandit vivamus phasellus. Lorem tincidunt ultrices auctor mus massa fusce mus libero, eget
+        cubilia dapibus et suspendisse ornare. Nam imperdiet condimentum molestie. Montes sit scelerisque metus sed
+        pellentesque senectus ultrices hymenaeos commodo placerat sociis felis sit lobortis habitant vitae volutpat
+        praesent montes dolor sodales viverra eleifend egestas nisl dui justo auctor laoreet cubilia purus mollis sem ad
+        Viverra iaculis sollicitudin. Fusce, mollis. Dis molestie. Malesuada duis nonummy maecenas platea venenatis
+        posuere egestas, nibh torquent eu vitae. Dis porttitor consectetuer sagittis nonummy. Natoque. Tortor justo
+        dapibus nonummy magnis faucibus neque taciti leo fermentum ultricies mi hendrerit per dignissim eros fermentum
+        blandit amet pharetra lacus Euismod, luctus placerat sapien quisque aliquam fusce penatibus, mauris tempor
+        adipiscing vitae ac neque molestie neque class elit eu. Egestas sem feugiat. Quisque porta euismod semper hac
+        mattis platea nisi. Mattis duis cursus. Viverra pellentesque fusce Condimentum pellentesque sociosqu quisque
+        pharetra hac lobortis nec. Malesuada aliquet euismod arcu platea parturient sollicitudin sagittis arcu Interdum.
+        Nam Non commodo elit hendrerit facilisis venenatis sociosqu bibendum nisi blandit potenti eros ac nibh placerat
+        torquent nec commodo porta pretium mi porttitor nibh malesuada litora aptent non aliquet Blandit, facilisi velit
+        mauris adipiscing quam leo consequat Auctor vehicula consequat sociis bibendum inceptos sed. Sit nonummy Magnis
+        ultricies fermentum elementum aptent nascetur sem scelerisque lorem tempus. Integer. Congue. Torquent euismod.
+        Pellentesque sagittis consequat est malesuada Tortor ut tristique elit dictumst maecenas Enim curabitur. Elit
+        laoreet. A ut sem Orci, pulvinar fermentum dis class lacinia fermentum dis malesuada integer id ante turpis vel.
+        Augue pharetra mattis cubilia phasellus, ut mauris primis duis pellentesque eleifend metus aliquam facilisis. At
+        duis vel vel nisi. Senectus egestas Penatibus risus</p>
+    </div>
+  </section> -->
+
+
+  <!-- SECTION 3 PORTFOLIO -->
+  <section class="portfolio" id="portfolio">
+    <div class="portfolioheader">
+      <h1>PROJECTS</h1>
+    </div>
+    <div class="portfoliobody">
+      <div class="project">
+        <img src="/assets/Artificial-Intelligence-5-21d99444.jpg" alt="Project 1">
+        <a href="#">
+          <h4>Project 1</h4>
+        </a>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia rem qui non magnam. ?</p>
+      </div>
+
+      <div class="project">
+        <img src="/assets/Blog-Types-of-Web-Dev-d54646b2.jpg" alt="Project 2">
+        <a href="#">
+          <h4>Project 2</h4>
+        </a>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia rem qui non magnam. ?</p>
+      </div>
+
+      <div class="project">
+        <img src="/assets/images-14d15f68.jpg" alt="Project 3">
+        <a href="#">
+          <h4>Project 3</h4>
+        </a>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia rem qui non magnam. ?</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- SECTION 4 CONTACT -->
+  <section class="contact" id="contact">
+
+    <div class="contactbody">
+      <div class="contactbodytext">
+
+        <h3>CONTACT ME</h3>
+        <p><b>Name</b> Nikko Pagdanganan</p>
+        <p><b>Address:</b> 7601 Aldrich Ave S, Richfield MN, USA</p>
+        <p><b>Phone:</b> +1(763)400-0597</p>
+        <p><b>Email:</b> nikkopagdanganan09@gmail.com</p>
+        <div class="icon">
+          <a href="https://www.facebook.com/nikkonixx"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.instagram.com/nikkopagdanganan/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/nikko-pagdanganan-2b5506264/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+
+      <div class="contactform">
+        <form>
+          <input type="text" id="name" name="name" placeholder="Name">
+          <input type="email" id="email" name="email" placeholder="email@mail.com">
+          <input type="text" id="subject" name="subject" placeholder="Subject">
+          <textarea id="message" name="message" rows="10" cols="47" placeholder="Message"></textarea>
+          <button>Submit</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</body>
+
 </html>
